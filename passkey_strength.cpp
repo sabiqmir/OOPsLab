@@ -22,9 +22,9 @@ int main() {
     cin >> password;
 
     if (isStrong(password)) {
-        cout << "Password is STRONG ✅\n";
+        cout << "Password is STRONG \n";
     } else {
-        cout << "Password is WEAK ❌ (must be at least 8 chars, contain letters & digits)\n";
+        cout << "Password is WEAK  (must be at least 8 chars, contain letters & digits)\n";
     }
 
     return 0;
